@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-06T03:00:40.884Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="eONE_RZRz90Y6FYMgzww" version="12.9.8" type="github">
+<mxfile host="app.diagrams.net" modified="2020-04-25T15:45:34.580Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.163 Safari/537.36" etag="a2S6tpeVZcgTta_nor2E" version="13.0.1" type="github">
   <diagram id="_wZCIX21bVTnccCvDHll" name="duluth network">
-    <mxGraphModel dx="1422" dy="804" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="677" dy="383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -228,6 +228,25 @@
               <mxPoint x="330" y="515" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="fBQO0n_Sx8WjLDXYuPeo-6" value="CJTL" parent="0" />
+        <mxCell id="fBQO0n_Sx8WjLDXYuPeo-5" value="CJTL" style="rounded=0;whiteSpace=wrap;html=1;fontSize=14;fillColor=#e1d5e7;strokeColor=#9673a6;verticalAlign=top;align=left;fontStyle=1;spacingBottom=0;spacingTop=-22;" vertex="1" parent="fBQO0n_Sx8WjLDXYuPeo-6">
+          <mxGeometry x="700" y="80" width="340" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="fBQO0n_Sx8WjLDXYuPeo-4" value="&lt;font face=&quot;Courier New&quot;&gt;(10) 1G&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;endArrow=none;endFill=0;strokeWidth=2;fontSize=8;fillColor=#d5e8d4;strokeColor=#82b366;labelBackgroundColor=#E1D5E7;" edge="1" parent="fBQO0n_Sx8WjLDXYuPeo-6" source="fBQO0n_Sx8WjLDXYuPeo-1" target="fBQO0n_Sx8WjLDXYuPeo-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBQO0n_Sx8WjLDXYuPeo-1" value="DLH-CTN-CJTL-EFW01" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fBQO0n_Sx8WjLDXYuPeo-6">
+          <mxGeometry x="705" y="110" width="140" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="fBQO0n_Sx8WjLDXYuPeo-3" value="CJTL Colo&lt;br&gt;10.180.0.0/24" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="fBQO0n_Sx8WjLDXYuPeo-6">
+          <mxGeometry x="940" y="105" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="fBQO0n_Sx8WjLDXYuPeo-2" value="&lt;font face=&quot;Courier New&quot;&gt;10G&lt;/font&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;endArrow=none;endFill=0;strokeWidth=2;fontSize=8;" edge="1" parent="fBQO0n_Sx8WjLDXYuPeo-6" source="kESvJMbOoLiE9TMQdQq1-20" target="fBQO0n_Sx8WjLDXYuPeo-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="fBQO0n_Sx8WjLDXYuPeo-7" value="23.159.32.xx/29" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;comic=1;fontSize=8;" vertex="1" parent="fBQO0n_Sx8WjLDXYuPeo-6">
+          <mxGeometry x="780" y="135" width="60" height="10" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
